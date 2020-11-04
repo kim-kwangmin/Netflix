@@ -160,6 +160,14 @@ li a:hover{
     font-size:0.8rem;
 }
 
+/* 라벨을 만들어서 색을 입히면 된다는데 자바스크립 영역인가? 알려주세여 슈바 흠.. */
+
+input[id="Label"] + label {
+    width:20px;
+    height:20px;
+    background:#737373;
+
+}
 
 #CaptionItem{
     color:blue;
